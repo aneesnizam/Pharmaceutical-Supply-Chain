@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Manufacturer Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Make sure manufacturer.js is loaded after the DOM is ready -->
+  <script defer src="manufacturer.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Manufacturer Dashboard</h2>
+    
+    <!-- Create Medicine Section -->
+    <h3>Create Medicine</h3>
+    <input type="text" id="medicineName" placeholder="Enter Medicine Name">
+    <button onclick="createMedicine()">Create Medicine</button>
+    
+    <!-- Supply Medicine Section -->
+    <h3>Supply Medicine</h3>
+    <select id="medicineDropdown"></select>
+    <select id="distributorList"></select>
+    <button onclick="supplyMedicine()">Supply to Distributor</button>
+    
+    <!-- List of Created Medicines -->
+    <h3>Medicines Created</h3>
+    <ul id="createdMedicineList"></ul>
+  </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Retailer Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="retailer.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Retailer Dashboard</h2>
+    <h3>Sell Medicine to Customer</h3>
+    <label for="customerEmail">Customer Email:</label>
+    <input type="text" id="customerEmail" placeholder="Enter Customer Email">
+    <button onclick="searchCustomer()">Search Customer</button>
+    <div id="customerStatus"></div>
+    <br>
+    <label for="medicineDropdown">Select Medicine:</label>
+    <select id="medicineDropdown"></select>
+    <br>
+    <button id="sellButton" onclick="sellMedicine()" disabled>Sell Medicine</button>
+  </div>
+</body>
+</html>

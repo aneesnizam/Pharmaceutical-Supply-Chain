@@ -1,0 +1,63 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    line-height: 1.5;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.3);
+    border-radius: 6px;
+}
+
+/* Style for input, select, and button */
+input,
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px #007bff;
+}
+
+/* Button styling */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+button:hover,
+button:focus {
+    background-color: #0056b3;
+    outline: none;
+}
