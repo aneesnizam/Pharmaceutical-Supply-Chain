@@ -61,21 +61,6 @@ This system tracks the journey of medicine from **Manufacturer** → **Distribut
 
 ---
 
-## 📷 Screenshots
-
-### 💻 Manufacturer Dashboard  
-![Manufacturer Dashboard](screenshots/manufacturer_dashboard.png)
-
-### 🧾 Blockchain Console Logs  
-![Blockchain Logs](screenshots/blockchain_logs.png)
-
-### 📦 Medicine Traceability Interface  
-![Traceability](screenshots/traceability_interface.png)
-
-### 🔒 Authentication Module  
-![Login Page](screenshots/login_page.png)
-
----
 
 ## 📈 Future Scope
 
