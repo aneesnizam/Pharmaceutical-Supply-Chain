@@ -85,7 +85,7 @@ This system tracks the journey of medicine from **Manufacturer** → **Distribut
 
 ## 📜 License
 
-This project is intended for academic use only. Contact the authors for licensing or commercial use.
+This project is intended for academic use only.
 
 ---
 
